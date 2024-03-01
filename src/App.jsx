@@ -4,6 +4,16 @@ import { Footer, Navbar } from "./components";
 import { About, Contact, Home, Projects } from "./pages";
 
 const App = () => {
+  window.addEventListener('contextmenu', function (e) {
+    e.preventDefault();
+  });
+  let docTitle = document.title;
+  window.addEventListener("blur", () => {
+    document.title = "Come Back😭";
+  })
+  window.addEventListener("focus", () => {
+    document.title = docTitle;
+  })
   return (
     <main className='bg-slate-300/20'>
       <Router>
