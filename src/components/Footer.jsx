@@ -13,6 +13,7 @@ const Footer = () => {
         </p>
 
         <div className='flex gap-3 justify-center items-center'>
+          
           {socialLinks.map((link) => (
             <Link key={link.name} to={link.link} target='_blank'>
               <img

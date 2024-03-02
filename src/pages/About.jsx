@@ -22,12 +22,12 @@ const About = () => {
 
       <div className='mt-5 flex flex-col items-start text-slate-500'>
 
-        <section className=" py-12 px-4 sm:px-6">
-          <div className="max-w-3xl mx-auto">
+        <section className="py-8 ">
+          <div className="max-w-3xl mx-auto ">
 
 
 
-            <p className="flex items-start w-full sm:text-lg text-gray-700 mb-4">
+            <p className="flex items-start w-full sm:text-lg text-justify text-gray-700 mb-4">
               Based in Pune, I'm passionate about crafting cutting-edge websites and web applications.
 
               With over 2 years of hands-on experience, I specialize in leveraging the power of React.js and Django Rest Framework to build dynamic, user-friendly, and scalable solutions tailored to meet the unique needs of clients and users alike.

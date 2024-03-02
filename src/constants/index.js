@@ -28,6 +28,7 @@ import {
 import python from "../assets/icons/python.webp"
 import django from "../assets/icons/django.webp"
 import cybrom from "../assets/icons/cybrom.webp"
+import mysql from "../assets/icons/mysql.png"
 export const skills = [
     {
         imageUrl: css,
@@ -109,13 +110,13 @@ export const skills = [
         name: "Tailwind CSS",
         type: "Frontend",
     },
-    // {
-    //     imageUrl: typescript,
-    //     name: "TypeScript",
-    //     type: "Frontend",
-    // }
+    {
+        imageUrl: mysql,
+        name: "MySql",
+        type: "Database",
+    }
 ];
-
+import pandoza from "../assets/images/pandoza.png"
 export const experiences = [
 
 
@@ -123,14 +124,15 @@ export const experiences = [
     {
         title: "Full stack Developer",
         company_name: "Pandoza Solutions",
-        icon: meta,
+        icon: pandoza,
         iconBg: "#a2d2ff",
         date: "Sept 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Proficiently leading the development of React.js and Django Rest Framework-based full-stack websites and web applications.",
+            "Demonstrated expertise in creating multiple CRM systems, catering to organizational needs as well as bespoke solutions for external clients.",
+            "Independently conceptualized, designed, and developed CRM solutions without external assistance, showcasing self-reliance and problem-solving abilities.",
+            "Accountable for deploying backend systems on VPS servers, ensuring seamless integration and optimal performance.",
+            "Proficiently managing backend deployment on cPanel, leveraging technical expertise to maintain server infrastructure efficiently.",
         ],
     },
     {
@@ -140,10 +142,11 @@ export const experiences = [
         iconBg: "#a2d2ff",
         date: "sept 2022 - aug 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Proficiently learned Python, C, C++, React.js, and JavaScript.",
+            "Acquired comprehensive understanding and practical skills in each language through structured coursework.",
+            "Successfully executed various projects during the training period, showcasing hands-on expertise.",
+            "Projects spanned multiple domains, highlighting versatility and adaptability in problem-solving.",
+            "Recognized by the coaching center for exceptional performance and dedication to continuous learning.",
         ],
     },
 ];
@@ -166,47 +169,50 @@ export const socialLinks = [
     }
 ];
 import employee from "../assets/icons/employee.png"
+import yoga from "../assets/icons/yoga.png"
+import charity from "../assets/icons/charity.png"
+import politics from "../assets/icons/politics.png"
 export const projects = [
     {
         iconUrl: employee,
         theme: 'btn-back-red',
         name: 'Employee Management System',
         description: 'created this online application to track employees daily activities, manage daily responsibilities, and determine their peak work hours.I used the Django Rest Framework and ReactJS to develop this full-stack Webapp.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        link: 'https://crm.diwise.in/',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Diwise UK',
+        description: 'I developed this website, a dynamic website utilizing React.js and Django frameworks. The website features a user-friendly blog upload system with robust filtering functionality, enhancing user experience and content accessibility.',
+        link: 'https://diwise.uk',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Redux Store',
+        description: 'a modern online application with Tailwind CSS for styling, Razor Payment Gateway for safe transactions, and Redux Toolkit for state management integrated. The application guarantees safe payment processing and effective state management, all while offering users a flawless shopping experience.',
+        link: 'https://cute-mermaid-b11178.netlify.app/',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: yoga,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Habit Tracker',
+        description: 'This task manager utilizes the Redux Toolkit for efficient state management. This application enables users to perform CRUD operations to manage tasks seamlessly. By leveraging the Redux Toolkit, the app ensures optimal performance and a smooth user experience.',
+        link: 'https://incomparable-axolotl-d7b807.netlify.app/',
     },
     {
-        iconUrl: estate,
+        iconUrl: charity,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Akka Foundation',
+        description: 'Introducing Akka Foundation, a dynamic website dedicated to fostering positive change through insightful blog content. Leveraging React.js and Django Rest Framework, this platform offers a seamless blog uploading system. Enhancing accessibility, the website incorporates a language toggle feature driven by state management. Akka Foundation embodies a commitment to impactful storytelling and utilizes cutting-edge technologies to amplify its mission of empowering communities',
+        link: 'https://www.akkafoundation.in',
     },
     {
-        iconUrl: summiz,
+        iconUrl: politics,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Arvind Patil Nilangekar',
+        description: 'Arvind Patil Nilangekar political website, developed using React.js and Django Rest Framework, offers an engaging platform showcasing his political journey. With a user-friendly blog upload system and customizable language toggle, visitors can explore insightful narratives and stay updated on his contributions. Dive into the website to discover compelling content that captures the essence of Arvind Patil Nilangekar political legacy.',
+        link: 'https://arvindpatilnilangekar.com/',
     }
 ];

@@ -7,9 +7,9 @@ const CTA = () => {
         Have a project in mind? <br className='sm:block hidden' />
         Let’s build something together!
       </p>
-      <Link to='/contact' className='btn'>
+      <a href='https://drive.usercontent.google.com/u/1/uc?id=1Sy6o3spEmCj7itv9wnPL3eIqTeODjcKv&export=download' className='btn'>
         Resume
-      </Link>
+      </a>
       <Link to='/contact' className='btn'>
         Contact
       </Link>

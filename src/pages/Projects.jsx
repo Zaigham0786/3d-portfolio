@@ -15,11 +15,7 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+      Explore a diverse portfolio of cutting-edge projects meticulously crafted to showcase my expertise and innovation. From dynamic web applications powered by React.js and Django to sleek e-commerce solutions featuring Redux store integration and a secure Razor payment gateway, each project embodies a commitment to excellence and client satisfaction. Discover how these projects demonstrate my proficiency in modern technologies and my ability to deliver tailor-made solutions that exceed expectations.
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
