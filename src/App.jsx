@@ -9,7 +9,7 @@ const App = () => {
   });
   let docTitle = document.title;
   window.addEventListener("blur", () => {
-    document.title = "Come Back😭";
+    document.title = "I'm Here 👋";
   })
   window.addEventListener("focus", () => {
     document.title = docTitle;
@@ -28,12 +28,12 @@ const App = () => {
                   <Route path='/about' element={<About />} />
                   <Route path='/projects' element={<Projects />} />
                   <Route path='/contact' element={<Contact />} />
+                 
                 </Routes>
                
               </>
             }
           />
-          
         </Routes>
         <Footer />
       </Router>
