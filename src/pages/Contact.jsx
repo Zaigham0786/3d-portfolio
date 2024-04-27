@@ -6,6 +6,7 @@ import { Fox } from "../models";
 import useAlert from "../hooks/useAlert";
 import { Alert, Loader } from "../components";
 import Spline from '@splinetool/react-spline';
+import { Helmet } from "react-helmet";
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -95,6 +96,12 @@ const Contact = () => {
 
   return (
     <section className='relative flex lg:flex-row flex-col max-container'>
+          <Helmet>
+        <title>MD Zaigham | Contact</title>
+        <meta name="keywords" content="MD Zaigham, Contact, Full Stack Developer, MERN Stack, Python, React.js, Django" />
+        <meta name="description" content="Contact MD Zaigham, experienced full stack developer specializing in MERN Stack, Python, React.js, & Django. Get in touch to discuss your project needs." />
+    </Helmet>
+
       {alert.show && <Alert {...alert} />}
 
       <div className='flex-1 min-w-[50%] flex flex-col'>

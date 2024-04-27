@@ -2,6 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 import { Footer, Navbar } from "./components";
 import { About, Contact, Home, Projects } from "./pages";
+import Coffee from "./components/tools/Coffee";
 
 const App = () => {
   window.addEventListener('contextmenu', function (e) {
@@ -18,6 +19,7 @@ const App = () => {
     <main className='bg-slate-300/20'>
       <Router>
         <Navbar />
+        {/* <Coffee/> */}
         <Routes>
           <Route path='/' element={<About />} />
           <Route

@@ -176,8 +176,8 @@ export const projects = [
     {
         iconUrl: employee,
         theme: 'btn-back-red',
-        name: 'Employee Management System',
-        description: 'created this online application to track employees daily activities, manage daily responsibilities, and determine their peak work hours.I used the Django Rest Framework and ReactJS to develop this full-stack Webapp.',
+        name: "A Robust CRM Solution",
+        description: 'Proudly presenting my bespoke CRM solution, meticulously crafted using ReactJS, Django, and MySQL. This robust system, hosted on a secure VPS server, manages hundreds of concurrent users seamlessly. With an intuitive ReactJS frontend and a resilient Django backend, navigation is smooth and functionalities are advanced. MySQL ensures reliability and scalability. Experience unparalleled efficiency and growth with this streamlined CRM solution, a testament to my expertise in full-stack development.',
         link: 'https://crm.diwise.in/',
     },
     {

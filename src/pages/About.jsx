@@ -7,10 +7,17 @@ import { CTA } from "../components";
 import { experiences, skills } from "../constants";
 
 import "react-vertical-timeline-component/style.min.css";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
     <section className='max-container'>
+       <Helmet>
+        <title>MD Zaigham | Full Stack Developer Specializing in MERN Stack, Python, React.js, and Django for Dynamic and User-Friendly Web Applications</title>
+        <meta name="keywords" content="MD Zaigham, Full Stack Developer, MERN Stack, Python, React.js, Django, Dynamic Web Applications, User-Friendly Web Applications
+" />
+        <meta name="description" content="MD Zaigham, experienced full stack developer specializing in MERN Stack, Python, React.js, & Django. Crafting dynamic & user-friendly web apps tailored to your needs." />
+    </Helmet>
       <h1 className='head-text'>
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>

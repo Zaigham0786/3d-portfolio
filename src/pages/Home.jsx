@@ -5,6 +5,7 @@ import sakura from "../assets/sakura.mp3";
 import { HomeInfo, Loader } from "../components";
 import { soundoff, soundon } from "../assets/icons";
 import { Bird, Island, Plane, Sky } from "../models";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   const audioRef = useRef(new Audio(sakura));
@@ -59,6 +60,12 @@ const Home = () => {
 
   return (
     <section className='w-full h-screen relative'>
+        <Helmet>
+        <title>MD Zaigham | Full Stack Developer Specializing in MERN Stack, Python, React.js, and Django for Dynamic and User-Friendly Web Applications</title>
+        <meta name="keywords" content="MD Zaigham, Full Stack Developer, MERN Stack, Python, React.js, Django, Dynamic Web Applications, User-Friendly Web Applications
+" />
+        <meta name="description" content="MD Zaigham, experienced full stack developer specializing in MERN Stack, Python, React.js, & Django. Crafting dynamic & user-friendly web apps tailored to your needs." />
+    </Helmet>
       <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
         {currentStage && <HomeInfo currentStage={currentStage} />}
       </div>

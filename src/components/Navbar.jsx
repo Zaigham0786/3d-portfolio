@@ -23,7 +23,7 @@ const Navbar = () => {
         </NavLink>
 
         <NavLink to='/contact' className={({ isActive }) => isActive ? "text-blue-600" : "text-black"}>
-          Hit Me Up
+          Hire me
         </NavLink>
       </nav>
 

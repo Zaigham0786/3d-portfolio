@@ -3,10 +3,16 @@ import { Link } from "react-router-dom";
 import { CTA } from "../components";
 import { projects } from "../constants";
 import { arrow } from "../assets/icons";
+import { Helmet } from "react-helmet";
 
 const Projects = () => {
   return (
     <section className='max-container'>
+      <Helmet>
+        <title>MD Zaigham | Projects</title>
+        <meta name="keywords" content="MD Zaigham, Projects, Full Stack Developer, MERN Stack, Python, React.js, Django, Web Applications" />
+        <meta name="description" content="Explore MD Zaigham's projects. As a full stack developer specializing in MERN Stack, Python, React.js, & Django, I've crafted dynamic & user-friendly web applications for various purposes." />
+      </Helmet>
       <h1 className='head-text'>
         My{" "}
         <span className='blue-gradient_text drop-shadow font-semibold'>
@@ -15,7 +21,7 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-      Explore a diverse portfolio of cutting-edge projects meticulously crafted to showcase my expertise and innovation. From dynamic web applications powered by React.js and Django to sleek e-commerce solutions featuring Redux store integration and a secure Razor payment gateway, each project embodies a commitment to excellence and client satisfaction. Discover how these projects demonstrate my proficiency in modern technologies and my ability to deliver tailor-made solutions that exceed expectations.
+        Explore a diverse portfolio of cutting-edge projects meticulously crafted to showcase my expertise and innovation. From dynamic web applications powered by React.js and Django to sleek e-commerce solutions featuring Redux store integration and a secure Razor payment gateway, each project embodies a commitment to excellence and client satisfaction. Discover how these projects demonstrate my proficiency in modern technologies and my ability to deliver tailor-made solutions that exceed expectations.
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
